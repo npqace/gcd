@@ -126,5 +126,5 @@ if __name__ == '__main__':
     notes = generate_song(n_notes)
     display_notes(notes)
     
-    print(f"\nRest quater: {count_quarter_rest(notes)}")
+    print(f"\nQuarter rest: {count_quarter_rest(notes)}")
     print(f"Max pitch: {get_max_pitch(notes)}")
